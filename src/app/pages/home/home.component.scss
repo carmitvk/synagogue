@@ -1,5 +1,7 @@
 .home {
-  
+
+ font-family: hadasimclm-bold; 
+
   display: flex;
   flex-direction: column;
   direction: rtl;
@@ -7,7 +9,7 @@
   align-items: center;
   overflow: hidden;
   // justify-content: center;
-  font-family: cursive;
+  // font-family: cursive;
 
   background-image: url('../../../assets/imgs/klaf2.jpg');
 
@@ -34,17 +36,12 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      // border-radius: 0 10px 0 10px;
       width: 30%;
       font-weight: 700;
       font-size: 65px;
       padding: 5px;
       height: 70px;
       border-radius: 5px;
-
-      // position: absolute;
-      // top: 3%;
-      // right: auto;
       background-image: url('../../../assets/imgs/klaf2.jpg');
       box-shadow: 10px 10px 19px 4px #13121257;
       // background-image: url('../../../assets/imgs/white-klaf.jpg');
@@ -141,9 +138,6 @@
     margin: 10px;
     border-radius: 5px;
     width: 40%;
-    // position: absolute;
-    // top: 90%;
-    // right: auto;
     background-image: url('../../../assets/imgs/klaf2.jpg');
     box-shadow: 10px 10px 19px 4px #13121257;
   }
